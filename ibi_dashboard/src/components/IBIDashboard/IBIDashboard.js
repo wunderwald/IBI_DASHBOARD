@@ -165,6 +165,8 @@ const IBIDashboard = props => {
                 })
             );
 
+        peaksCropped.sort((a, b) => a - b);
+
         // 2: calculate ibis (for N disabled Regions, there are N+1 groups of peaks)
         const ibi = { samples: [], ms: [] };
         const numPeakGroups = disabledIndexRanges.length + 1;
