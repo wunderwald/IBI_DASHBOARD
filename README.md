@@ -15,11 +15,31 @@ The UI shows a **focus view** (zoomed waveform) and a **context view** (full rec
 
 ## Run (development)
 
+> **Node version requirement:** This project uses `react-scripts@4` which requires **Node 16**. Node 17+ will cause build errors.
+
+If you have [nvm](https://github.com/nvm-sh/nvm), switch to Node 16:
+
+```bash
+nvm install 16
+nvm use 16
+```
+
+If nvm is not installed:
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+# restart your terminal, then run the nvm commands above
+```
+
+Then install and start:
+
 ```bash
 cd ibi_dashboard
-npm install   # first time only
+npm install --legacy-peer-deps   # first time only
 npm start
 ```
+
+`--legacy-peer-deps` is needed because some charting packages (`@vx/*`) declare a peer dependency on React 16, while this project uses React 17.
 
 Opens at `http://localhost:3000`. Hot-reloading is enabled.
 
