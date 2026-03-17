@@ -1,0 +1,8 @@
+.dropdown-menu {
+    height: 169px;
+    overflow-y: scroll;
+  }
+
+  .dropdown-item.visited{
+    color: #777 !important;
+  }

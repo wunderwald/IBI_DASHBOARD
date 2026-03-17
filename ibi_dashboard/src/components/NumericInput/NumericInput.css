@@ -1,0 +1,9 @@
+.NumericInput{
+    color: #fff;
+    background-color: #333;
+    border-color: #555;
+    border-style: solid;
+}
+.NumericInput::placeholder{
+    color: #bbb;
+}

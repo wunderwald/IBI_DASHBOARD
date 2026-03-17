@@ -1,0 +1,14 @@
+{
+  "name": "ibi_correction_ui_export",
+  "version": "1.0.0",
+  "description": "## 2 versions of dashboard",
+  "main": "dataToDashboardOnline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.3"
+  }
+}

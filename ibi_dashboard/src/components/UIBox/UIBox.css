@@ -1,0 +1,33 @@
+.uiBox {
+    padding: 15px;
+    color: #fff;
+    font-size: .85rem;
+}
+.uiBox button {
+    margin: 5px;
+    font-size: .85rem;
+    padding: .3rem;
+}
+.dropdown-menu.show{
+    background-color: #ccc;
+}
+.dropdownItem.dropdown-item.active,
+.dropdownItem.dropdown-item:active{
+    background-color: #333;
+}
+.dropdownItem.dropdown-item.active:hover{
+    background-color: #444;
+}
+.dropdownItem.dropdown-item:hover{
+    background-color: #aaa;
+}
+textarea {
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+}
+input[type="text"] {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}

@@ -1,0 +1,17 @@
+.visContainer{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #333;
+    border-radius: 4px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.visContainer tspan{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p.loading{
+    text-align: center;
+    color: #ccc;
+    padding: 1.42em;
+}
